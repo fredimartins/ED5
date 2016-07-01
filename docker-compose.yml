@@ -1,0 +1,5 @@
+teste:
+  image: teste
+  container_name: teste
+  ports:
+   - "8888:8080"
