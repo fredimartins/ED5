@@ -18,8 +18,8 @@ RUN git clone https://github.com/fatercio/task-manager-exe5.git
 RUN cd /task-manager-exe5 && mvn install
 
 # run
-RUN service mongodb restart
-CMD java -jar /task-manager-exe5/target/boot-rest-api-0.1.jar
+#RUN 
+CMD service mongodb restart && java -jar /task-manager-exe5/target/boot-rest-api-0.1.jar
 
 #Port
 EXPOSE 8080
