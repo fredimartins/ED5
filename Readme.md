@@ -14,4 +14,5 @@ docker build --tag=teste
 docker-compose up -d
 
 ## Acessando
+OBS.: A máquina demora a iniciar um pouco por causa do mongo e do springboot
 Quando a maquina estiver funcionando, acesse o webservice digitando localhost:8888/api/todo ou pelo ip da maquina, geralmente 172.17.0.2:8888/api/todo
